@@ -46,7 +46,7 @@ if has("gui_running") || &t_Co == 256
     hi CursorLine cterm=NONE ctermfg=NONE ctermbg=233 gui=NONE guifg=NONE guibg=#121212
     hi StatusLine cterm=bold,reverse ctermfg=245 ctermbg=16 gui=bold,reverse guifg=#8a8a8a guibg=#000000
     hi StatusLineNC cterm=reverse ctermfg=236 ctermbg=16 gui=reverse guifg=#303030 guibg=#000000
-    hi Visual cterm=reverse ctermfg=250 ctermbg=16 gui=NONE guifg=#585858 guibg=#000000
+    hi Visual cterm=reverse ctermfg=250 ctermbg=16 gui=NONE guifg=#585858 guibg=#ff76ff
     hi TermCursor cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 else
     hi Normal cterm=NONE ctermfg=Gray ctermbg=Black
